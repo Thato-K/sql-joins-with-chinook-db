@@ -3,6 +3,7 @@ SELECT count(*) FROM artists;
 
 
 SELECT * FROM genres;
+
 SELECT count(*) FROM genres;
 
 SELECT count(*) FROM playlists;
@@ -69,15 +70,15 @@ LIMIT 1;
 SELECT * FROM invoices
 WHERE invoiceId = 17;
 
-
+-- Find all the playlists containing a given genre
 
 -- Find the biggest/smallest invoice amounts
 
 SELECT InvoiceId, Min(Total)
-FROM invoices
+FROM invoices;
 
 SELECT InvoiceId, Max(Total)
-FROM invoices
+FROM invoices;
 
 -- Find the artist with the most/least songs
 SELECT
